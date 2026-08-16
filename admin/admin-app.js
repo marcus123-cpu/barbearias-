@@ -3,8 +3,8 @@ const ADMIN_PASSWORD = "rl123";
 const SESSION_TIMEOUT_DAYS = 20;
 const TERMS_VERSION = "2026-08-16";
 const PRIVACY_VERSION = "2026-08-16";
-const isAdminRoute = location.pathname.replace(/\/$/, "").endsWith("/admin");
-const ASSET_BASE = isAdminRoute ? "../assets/" : "assets/";
+const isAdminRoute = true;
+const ASSET_BASE = "../assets/";
 const COMPANY_PHOTO = `${ASSET_BASE}723131300_17888375571564268_3687150447483075437_n.jpg`;
 
 const seed = {
