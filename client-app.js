@@ -231,10 +231,11 @@ function clientNeedsLegalAcceptance(client) {
 }
 
 function clientApp() {
+  const isWelcome = !state.client && authStep === "welcome";
   return `
     <main class="client-shell">
-      <section class="phone-frame">
-        ${!state.client && authStep === "welcome" ? "" : clientHeader()}
+      <section class="phone-frame ${isWelcome ? "auth-welcome" : ""}">
+        ${isWelcome ? "" : clientHeader()}
         <div class="screen">${clientContent()}</div>
         ${state.client ? clientNav() : ""}
       </section>
