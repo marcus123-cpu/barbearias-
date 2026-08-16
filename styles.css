@@ -1391,6 +1391,26 @@ select:focus {
   }
 }
 
+.phone-frame:has(.welcome-screen) {
+  grid-template-rows: minmax(0, 1fr);
+}
+
+.phone-frame:has(.welcome-screen) .screen {
+  display: grid;
+  min-height: 100%;
+  padding: clamp(12px, 3dvh, 24px);
+}
+
+.phone-frame:has(.welcome-screen) .welcome-screen {
+  align-items: center;
+  min-height: 100%;
+}
+
+.phone-frame:has(.welcome-screen) .welcome-content {
+  align-self: center;
+  margin-block: auto;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
