@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Barbeiro RL com polo verde">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="#07110d"/>
+  <path d="M15 133c10-32 32-49 65-49s55 17 65 49v27H15z" fill="#10261b"/>
+  <path d="M66 91h28l-14 18z" fill="#d5d8d2"/>
+  <circle cx="80" cy="64" r="32" fill="#b97852"/>
+  <path d="M51 54c5-22 20-33 44-29 16 3 25 13 25 31-21-6-43-7-69-2z" fill="#241510"/>
+  <path d="M60 70c7-4 14-4 20 0M92 70c7-4 14-4 20 0" stroke="#19120f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M70 86c7 6 15 6 23 0" stroke="#19120f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M61 91c10 12 27 15 39 1" stroke="#21120e" stroke-width="11" stroke-linecap="round"/>
+  <path d="M41 128h78" stroke="#5cff91" stroke-width="2" opacity=".45" filter="url(#glow)"/>
+  <rect x="104" y="117" width="22" height="8" rx="2" fill="#e7ece8"/>
+  <text x="107" y="124" fill="#0b1712" font-family="Arial" font-size="5" font-weight="700">RL</text>
+</svg>

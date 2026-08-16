@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Barbeiro RL com camiseta preta">
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="160" height="160" rx="80" fill="#07110d"/>
+  <path d="M16 132c10-31 32-47 64-47s54 16 64 47v28H16z" fill="#101010"/>
+  <path d="M51 85c7 15 18 23 29 23s22-8 29-23c-8 6-18 9-29 9s-21-3-29-9z" fill="#7b4a33"/>
+  <circle cx="80" cy="66" r="33" fill="#a86947"/>
+  <path d="M47 60c4-26 22-38 48-32 14 3 21 12 21 28-20-8-43-9-69 4z" fill="#111"/>
+  <path d="M62 70c6-4 12-4 18 0M91 70c6-4 12-4 18 0" stroke="#181818" stroke-width="4" stroke-linecap="round"/>
+  <path d="M71 86c7 6 15 6 23 0" stroke="#151515" stroke-width="4" stroke-linecap="round"/>
+  <path d="M66 98c7 5 21 5 28 0" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M41 128h78" stroke="#5cff91" stroke-width="2" opacity=".45" filter="url(#glow)"/>
+  <rect x="101" y="119" width="22" height="8" rx="2" fill="#e7ece8"/>
+  <text x="104" y="126" fill="#0b1712" font-family="Arial" font-size="5" font-weight="700">RL</text>
+</svg>

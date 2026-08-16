@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">RL Barbearia</title>
+  <desc id="desc">Monograma RL em neon verde com a palavra Barbearia e poste de barbeiro.</desc>
+  <defs>
+    <filter id="greenGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur1"/>
+      <feGaussianBlur stdDeviation="16" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="face" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#112818"/>
+      <stop offset="0.5" stop-color="#061009"/>
+      <stop offset="1" stop-color="#183a21"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="none"/>
+  <g filter="url(#greenGlow)">
+    <text x="126" y="514"
+      fill="url(#face)"
+      stroke="#f5fff5"
+      stroke-width="18"
+      paint-order="stroke fill"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="500"
+      font-weight="700"
+      letter-spacing="-62">RL</text>
+    <text x="126" y="514"
+      fill="none"
+      stroke="#58ff82"
+      stroke-width="8"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="500"
+      font-weight="700"
+      letter-spacing="-62">RL</text>
+    <text x="143" y="711"
+      fill="#061009"
+      stroke="#f3fff3"
+      stroke-width="8"
+      paint-order="stroke fill"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="72"
+      font-weight="700"
+      letter-spacing="28">BARBEARIA</text>
+    <text x="143" y="711"
+      fill="none"
+      stroke="#58ff82"
+      stroke-width="3"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="72"
+      font-weight="700"
+      letter-spacing="28">BARBEARIA</text>
+    <line x1="186" y1="775" x2="402" y2="775" stroke="#58ff82" stroke-width="5"/>
+    <line x1="498" y1="775" x2="714" y2="775" stroke="#58ff82" stroke-width="5"/>
+    <g transform="translate(435 742)">
+      <rect x="0" y="18" width="30" height="62" rx="8" fill="#061009" stroke="#f3fff3" stroke-width="5"/>
+      <path d="M5 72 L25 52 M5 54 L25 34 M5 36 L20 21" stroke="#58ff82" stroke-width="6"/>
+      <path d="M2 18 h26 M2 80 h26" stroke="#58ff82" stroke-width="5"/>
+      <circle cx="15" cy="10" r="10" fill="none" stroke="#58ff82" stroke-width="4"/>
+      <circle cx="15" cy="90" r="10" fill="none" stroke="#58ff82" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
